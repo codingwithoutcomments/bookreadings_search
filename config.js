@@ -68,6 +68,11 @@ exports.paths = [
       type:  "user"
    },
    {
+      path:  "readings",
+      index: "firebase",
+      type:  "reading"
+   },
+   {
       path:  "messages",
       index: "firebase",
       type:  "message",
