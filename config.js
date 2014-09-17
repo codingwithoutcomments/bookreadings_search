@@ -63,14 +63,10 @@ else {
 
 exports.paths = [
    {
-      path:  "users",
-      index: "firebase",
-      type:  "user"
-   },
-   {
       path:  "readings",
       index: "firebase",
-      type:  "reading"
+      type:  "reading",
+      fields: ['title','tags','description']
    },
    {
       path:  "messages",
