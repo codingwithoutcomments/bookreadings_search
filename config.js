@@ -29,18 +29,19 @@ if( process.env.BONSAI_URL ) {
    processBonsaiUrl(exports, process.env.BONSAI_URL);
 }
 else {
-   https://voh7r7uq:wyhtavdi3tgxd8gl@dogwood-6673328.us-east-1.bonsai.io:443/
+   //https://voh7r7uq:wyhtavdi3tgxd8gl@dogwood-6673328.us-east-1.bonsai.io:443/
+   //https://v1oj5uwp:63wf9pt446i98dgk@rowan-8440929.us-east-1.bonsai.io
    // ElasticSearch server's host URL
-   exports.ES_HOST  = 'https://dogwood-6673328.us-east-1.bonsai.io' || 'localhost';
+   exports.ES_HOST  = 'https://rowan-8440929.us-east-1.bonsai.io' || 'localhost';
 
    // ElasticSearch server's host port
    exports.ES_PORT  = '443' || '9200';
 
    // ElasticSearch username for http auth
-   exports.ES_USER  = 'voh7r7uq' || null;
+   exports.ES_USER  = 'v1oj5uwp' || null;
 
    // ElasticSearch password for http auth
-   exports.ES_PASS  = 'wyhtavdi3tgxd8gl' || null;
+   exports.ES_PASS  = '63wf9pt446i98dgk' || null;
 }
 
 
