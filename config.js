@@ -67,7 +67,7 @@ exports.paths = [
       path:  "readings",
       index: "firebase",
       type:  "reading",
-      fields: ['title','tags','description','created']
+      fields: ['title','tags','description','created', 'deleted']
    },
    {
       path:  "messages",
